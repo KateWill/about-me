@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+
+  CSS Reset
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+Box Model
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/*
+Page styling starts here
+ */
+
+ /* ------------------------------ Home page ----------------------- */
+
+ .container {
+   margin: 0 auto;
+   padding-left: 30px;
+   padding-right: 30px;
+   width: 960px;
+ }
+.nav ul{
+  position: fixed;
+}
+
+.nav li{
+display: inline-block;
+margin: auto 20px;
+vertical-align: top;
+width: 200px;
+background-color: #fa8f6b;
+padding:15px;
+text-decoration: none;
+border-radius: 5px;
+font: bold 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.nav a{
+  color:white;
+  text-decoration: none;
+}
+
+section.top{
+  background-image: url("images/home/snow.jpg");
+  background-position: 0 -720px ;
+  background-repeat: no-repeat;
+  padding: 15%;
+  background-size: 100% auto; 
+  margin-bottom: 30px; 
+
+}
+
+
+h1{
+  color:#fa8f6b;
+  font-weight: bold;
+  font-family: 'Kalam', cursive;
+  font-size: 50px;
+
+}
+
+#profile{
+
+  display: block;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fa8f6b;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+
+}
+
+section.description{
+  margin:15px;
+}
+
+h2{
+  text-transform: uppercase;
+  color:#fa8f6b;
+  font-weight: bold;
+  font-family: 'Kalam', cursive;
+  font-size: 25px;
+}
+p{
+font: normal 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 10px;
+
+}
+div{
+  display: inline-block;
+  
+}
+div.col-1{
+  float:left;
+  width:50%;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+div.col-2{
+  float:right;
+  padding: 5px;
+  width:50%;
+  height:295px;
+  margin: 20px 0;
+  margin-left:0;
+}
+div.under{
+  clear:both;
+  margin:20px;
+}
+
+h2.under2{
+  margin-top: 35px;
+}
+
+
+h4{
+  width:30%;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top:10px;
+  font: bold 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p.list{
+  width:50%;
+  
+  margin:0;
+  text-align: left;
+  text-indent: 13%;
+}
+
+.logo{
+  width:80px;
+  float:left;
+  padding: 5px;
+  margin:10px;
+}
+
+.arenaLogo{
+  width:200px;
+  margin:15px 0;
+}
+
+footer p.border{
+  border-style: solid;
+  border-width: 1px;
+  width:28%;
+  border-color: #fa8f6b;
+  margin:10px; 
+}
+footer p{color:#fa8f6b;}
+
+/* End of home page */
+
+/* ----------------------- Goals page------------------------- */
+
+.list{
+  list-style-type: square;
+  padding: 5px;
+  margin:15px;
+}
+.list li{
+  line-height: 35px;
+  font-family: Tahoma, Geneva, sans-serif;
+  margin-left: -65px;
+  font-size: 15px;
+  width: 300px;
+  text-align: left;
+}
+section.goalsBody{
+margin-left:30%;
+
+}
+section.goalsBody h2{
+  margin-left: -30%;
+  margin-top: 15px;
+}
+
+div.border{
+  border:solid;
+  margin-left: 33%;
+  padding: 15px;
+  color:#fa8f6b;
+  border-radius: 5px;
+  margin-bottom: 35px;
+
+}
+
+/* End of goals page */
+
+/* ------------------------- Interests and hobbies page ----------------- */
+
+div.gallery{
+  margin-left: 33%;
+}
+
+/* End of interests and hobbies page */
+
+
+/* ------------------------------ Contact form -------------------------- */
+
+textarea{
+  width:400px;
+  height:250px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.btn{
+  background-color: #4ab26a;
+  color:white;
+  border-radius: 5px;
+  border:none;
+  width: 80px;
+  height: 30px;
+}
+.btn:hover {
+  background-color: #fa8f6b;
+}
+
+form {
+  border: 2px solid #fa8f6b;
+  border-radius: 5px;
+  font: 14px, Arial, sans-serif;
+  width: 70%;
+  padding: 15px;
+  margin-bottom:100px;
+}
+
+input{
+  margin: 20px;
+  border-radius: 3px;
+  height: 30px;
+  border: 1px solid #e0e0de;
+  font-size: 15px;
+}
+
+label{
+  font: normal 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 10px;
+}
+
+/* End of contact form */

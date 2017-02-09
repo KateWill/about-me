@@ -1,0 +1,84 @@
+<head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Kalam|Shadows+Into+Light" rel="stylesheet">
+
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header class="container">
+      <nav class="nav">
+          <center><ul>
+            <li><a href="index.html">Home</a></li><!--
+            --><li><a href="intrests.html">Intrests & Hobbies</a></li><!--
+            --><li><a href="goals.html">Course Goals</a></li><!--
+            --><li><a href=contact.html>Contact</a></li>
+          </ul></center>
+        </nav>
+    </header>
+<!---------------------------------------------------------------------------- 
+      *Above The Fold
+  -->   
+   <section class="top">
+    <center><h1>Contact</h1></center>
+   </section>
+
+<!---------------------------------------------------------------------------- --> 
+    
+
+    <section>
+      
+      <center><form action="/login" method="post">
+        
+        <fieldset>
+          
+          <legend><h1>Contact Info</h1></legend>
+          
+          <ul>
+
+            <li>
+              <label>
+                First Name
+                <input type="text" name="fname" placeholder="*First Name" required>
+              </label>
+
+              <label>
+                  Last Name
+                <input type="text" name="lname" placeholder="*Last Name" required>
+              </label>
+            </li>
+            <li>
+              <label>
+                 Email
+                <input type="email" name="Email" placeholder="*Email@example.com" required>
+              </label>
+           
+              <label>
+                 Phone Number
+                <input type="tel" name="phone" placeholder="*(801)123-4567" required>
+              </label>
+            </li>
+            
+            <li>
+              <textarea name="comment" placeholder="Please Enter Feedback Here..."></textarea>
+            </li>
+          </ul>
+          <input class="btn" type="submit" name="submit" value="Submit">
+
+        </fieldset>
+
+      </form></center>
+
+
+    </section>
+
+    <footer>
+      <center><p class="border">Created By Katelyn Williamson</p></center>
+    </footer>
+
+  </body>
+
+</html>
